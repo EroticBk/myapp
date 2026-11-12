@@ -1,0 +1,6 @@
+{
+  "name": "ClipForge AI - Local Video Clipper Desktop Studio",
+  "description": "100% free, offline, local video clipping desktop application codebase & interactive studio. Powered by CustomTkinter, faster-whisper, Ollama llama3.2:1b, and FFmpeg 9:16 vertical auto-cropper.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

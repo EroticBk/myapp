@@ -1,0 +1,23 @@
+# ClipForge AI - Requirements for 100% Local Video Clipper Desktop App
+# Python 3.10+ recommended
+
+# GUI Framework (Dark mode, modern, native controls)
+customtkinter>=5.2.2
+
+# Local Fast Speech-to-Text with word-level timestamps (runs on CPU/APU)
+faster-whisper>=1.1.0
+
+# Local LLM bridge (communicates with local Ollama daemon for llama3.2:1b)
+ollama>=0.4.7
+
+# YouTube & online video stream extractor
+yt-dlp>=2025.1.26
+
+# Video processing & FFmpeg pipeline
+ffmpeg-python>=0.2.0
+
+# Audio peak and volume spike analysis
+pydub>=0.25.1
+
+# Desktop Standalone Executable compiler
+pyinstaller>=6.11.1
